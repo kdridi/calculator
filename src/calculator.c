@@ -9,6 +9,7 @@ int main(void)
 	while (ch <= 'z')
 		sym[ch++ - 'a'] = 0;
 
+	yydebug = 0;
 	yyparse();
 
 	return (0);
