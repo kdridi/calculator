@@ -1,5 +1,7 @@
 %{
 #include "calculator_parser.h"
+
+void yyerror(char *s);
 %}
 
 %option noyywrap

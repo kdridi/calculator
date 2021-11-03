@@ -12,6 +12,7 @@ int main(void)
     char string[] =
         "a=10+2*5\n"
         "b=99*a+a\n"
+        "c=1-2-3\n"
         "a\n"
         "b\n"
         "c\n"

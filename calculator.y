@@ -1,4 +1,3 @@
-	
 %{
 #include <stdio.h>
 
@@ -7,6 +6,7 @@ void yyerror(char *s) {
 }
 
 int sym[26];
+int yylex();
 %}
 
 %union {
